@@ -1,0 +1,50 @@
+---
+layout: austeresurgical
+title: Military Medicine
+description: 
+subtitle: Front Line Surgical Stabilization
+full-width: true
+---
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Custom Styles for the Image Gallery -->
+<style>
+  .image-gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    justify-content: center;
+    padding: 4px;
+  }
+
+  .box {
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+  }
+
+  .img-gallery {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .img-gallery:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+<body>
+  <!-- Title and Subtitle in title block above -->
+  <div class="container">
+    <h1> </h1>
+    <h2> </h2>
+  </div>
+  <!-- Image Gallery -->
+  {% include image-gallery.html folder="/assets/img/helix/" %}
+  
+</body>
