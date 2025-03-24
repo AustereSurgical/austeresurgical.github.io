@@ -1,28 +1,24 @@
-url: https://y7kim.github.io
+url: https://austeresurgical.com
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Austere Surgical
+email: info@austeresurgical.com
+description: "Austere Surgical is pushing the boundary of surgical care in low-resource environments to improve patient outcomes in war zones, natural disasters, and spaceflight. Our portable and reusable system provides stability, sterility, and visibility in remote environments. From offloading minor procedures in overrun hospitals to providing damage control surgery on the move, our system deploys a functional operating room when you need it most."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Neil Koby Reid
   pic: 1
-  position: Lead Designer
+  position: Co-Founder, CEO
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: linkedin
+      url: www.linkedin.com/in/nkreid
 
-- name: Larry Parker
+- name: Jacob Paris
   pic: 2
-  position: Lead Marketer
+  position: Co Founder
   social:
     - title: twitter
       url: #
@@ -31,9 +27,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Brayden Raper
   pic: 3
-  position: Lead Developer
+  position: Co Founder
   social:
     - title: twitter
       url: #
@@ -57,8 +53,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 1020 Holcombe Blvd
+  - line: Houston, TX 77030
 
 # Build settings
 markdown: kramdown
