@@ -1,57 +1,57 @@
-# Team names, titles and social links
+# Team names, titles, and social links
 people:
-- name: Neil Koby Reid, MS
-  pic: Reid
-  position: Interim CEO, Incoming Surgery Resident @ BUMC Dallas
-  group: cofounder
-  social:
-    - title: linkedin
-      url: www.linkedin.com/in/nkreid
+  - name: Neil Koby Reid, MS
+    pic: Reid
+    position: Interim CEO, Incoming Surgery Resident @ BUMC Dallas
+    group: cofounder
+    social:
+      - title: linkedin
+        url: "https://www.linkedin.com/in/nkreid"
 
-- name: Jacob Paris
-  pic: Paris
-  position: Incoming Medicine Resident @ Kansas
-  group: cofounder
-  social:
-    - title: linkedin
-      url: #
+  - name: Jacob Paris
+    pic: Paris
+    position: Incoming Medicine Resident @ Kansas
+    group: cofounder
+    social:
+      - title: linkedin
+        url: ""
 
-- name: Brayden Raper
-  pic: Raper
-  position: Incoming Anesthesia Resident @ Vanderbilt
-  group: cofounder
-  social:
-    - title: linkedin
-      url: #
+  - name: Brayden Raper
+    pic: Raper
+    position: Incoming Anesthesia Resident @ Vanderbilt
+    group: cofounder
+    social:
+      - title: linkedin
+        url: ""
 
   - name: Drew Hendricks, MBE
-  pic: Hendricks
-  position: Incoming Emergency Medicine Resident @ Stanford
-  group: cofounder
-  social:
-    - title: linkedin
-      url: #
+    pic: Hendricks
+    position: Incoming Emergency Medicine Resident @ Stanford
+    group: cofounder
+    social:
+      - title: linkedin
+        url: ""
 
   - name: Rebecca Lee, MD
-  pic: Lee
-  position: Clinical & University Relations
-  group: advisor
-  social:
-    - title: linkedin
-      url: #
+    pic: Lee
+    position: Clinical & University Relations
+    group: advisor
+    social:
+      - title: linkedin
+        url: ""
 
   - name: Walter Cromer, PhD
-  pic: Cromer
-  position: Microbiology & Sanitization
-  group: advisor
-  social:
-    - title: linkedin
-      url: #
+    pic: Cromer
+    position: Microbiology & Sanitization
+    group: advisor
+    social:
+      - title: linkedin
+        url: ""
 
   - name: Nick Sears, PhD
-  pic: Sears
-  position: Technical Engineering & Manufacturing
-  group: advisor
-  social:
-    - title: linkedin
-      url: #
+    pic: Sears
+    position: Technical Engineering & Manufacturing
+    group: advisor
+    social:
+      - title: linkedin
+        url: ""
