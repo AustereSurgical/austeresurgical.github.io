@@ -1,37 +1,101 @@
 <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
-
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Team</h2>
+                <h3 class="section-subheading text-muted">A Spin-Out of Texas A&M's EnMed Program</h3>
             </div>
         </div>
-    </section>
+
+        <!-- Cofounders Section -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-subheading text-muted">Cofounders</h3>
+            </div>
+            {% for member in site.people %}
+            {% if member.group == "cofounder" %}
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{ member.name }}">
+                    <h4>{{ member.name }}</h4>
+                    <p class="text-muted">{{ member.position }}</p>
+                    <ul class="list-inline social-buttons">
+                        {% for network in member.social %}
+                        <li>
+                            <a href="{{ network.url }}" target="_blank">
+                                <i class="fa fa-{{ network.title }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- Advisors Section -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-subheading text-muted">Advisors</h3>
+            </div>
+            {% for member in site.people %}
+            {% if member.group == "advisor" %}
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{ member.name }}">
+                    <h4>{{ member.name }}</h4>
+                    <p class="text-muted">{{ member.position }}</p>
+                    <ul class="list-inline social-buttons">
+                        {% for network in member.social %}
+                        <li>
+                            <a href="{{ network.url }}" target="_blank">
+                                <i class="fa fa-{{ network.title }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- EnMed Students Section -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-subheading text-muted">EnMed Students</h3>
+            </div>
+            {% for member in site.people %}
+            {% if member.group == "enmed" %}
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{ member.name }}">
+                    <h4>{{ member.name }}</h4>
+                    <p class="text-muted">{{ member.position }}</p>
+                    <ul class="list-inline social-buttons">
+                        {% for network in member.social %}
+                        <li>
+                            <a href="{{ network.url }}" target="_blank">
+                                <i class="fa fa-{{ network.title }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- Recruitment Message -->
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="large text-muted">
+                    We are looking for new team members! If you have a background or interest in working with the US Military, disaster relief, or space medicine and would like to join our mission, please reach out!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
