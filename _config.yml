@@ -9,47 +9,71 @@ description: "Austere Surgical is pushing the boundary of surgical care in low-r
 
 # Team names, titles and social links
 people:
-- name: Neil Koby Reid
-  pic: 1
-  position: Co-Founder, CEO
+- name: Neil Koby Reid, MS
+  pic: Reid
+  position: Interim CEO, Incoming Surgery Resident @ BUMC Dallas
+  group: cofounder
   social:
     - title: linkedin
       url: www.linkedin.com/in/nkreid
 
 - name: Jacob Paris
-  pic: 2
-  position: Co Founder
+  pic: Paris
+  position: Incoming Medicine Resident @ Kansas
+  group: cofounder
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
       url: #
 
 - name: Brayden Raper
-  pic: 3
-  position: Co Founder
+  pic: Raper
+  position: Incoming Anesthesia Resident @ Vanderbilt
+  group: cofounder
   social:
-    - title: twitter
+    - title: linkedin
       url: #
-    - title: facebook
+
+  - name: Drew Hendricks, MBE
+  pic: Hendricks
+  position: Incoming Emergency Medicine Resident @ Stanford
+  group: cofounder
+  social:
+    - title: linkedin
       url: #
-    - title: google-plus
+
+  - name: Rebecca Lee, MD
+  pic: Lee
+  position: Clinical & University Relations
+  group: advisor
+  social:
+    - title: linkedin
       url: #
+
+  - name: Walter Cromer, PhD
+  pic: Cromer
+  position: Microbiology & Sanitization
+  group: advisor
+  social:
+    - title: linkedin
+      url: #
+
+  - name: Nick Sears, PhD
+  pic: Sears
+  position: Technical Engineering & Manufacturing
+  group: advisor
+  social:
+    - title: linkedin
+      url: #
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: 
   - title: facebook
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/austeresurgical
 
 # Postal address (add as many lines as necessary)
 address:
